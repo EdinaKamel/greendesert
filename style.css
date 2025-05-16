@@ -98,12 +98,12 @@ section{
 }
 nav{
     max-width:20%;
-    height:100vh;
     background-color: rgba(30, 129, 0, 0.6);
     margin-left:auto;
     margin-right:0;
     padding:30px 0 ;
 }
+
 .container{
 max-width:80%;
 min-height: 100%;
@@ -116,7 +116,7 @@ min-height: 100%;
     background-position: center top;
     background-repeat: no-repeat;
     position: relative;
-    height:100vh;
+
   
 
 }
@@ -261,6 +261,9 @@ margin:-400px auto auto 40%;
 
 }
 /*Tested section*/
+#tested{
+    padding-bottom:60px;
+}
  #tested-textbox{
  padding:120px 0 120px;
 position: relative;
@@ -270,7 +273,7 @@ width:100%;
 display: flex;
 flex-wrap: wrap;
 justify-content:space-between;
-align-items: flex-end;
+align-items: center;
 margin-bottom:60px;
  
 }
@@ -278,7 +281,8 @@ margin-bottom:60px;
    padding:15px 0 15px 15px;
     margin:30px;
    max-width:250px;
-   position: relative;  
+text-align: center;
+
 }
 h3.tested{
     margin:90px auto 120px;
@@ -416,17 +420,10 @@ margin-bottom: 120px;
     padding:120px 0;
     border-radius: 2px;
     background-color: rgba(255, 254, 254, 0.9);
-    max-width: 60%;
+    max-width: 80%;
   
 }
-#testimonial1{
- background-image: url('img/testimonial1.jpg'); 
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding:120px;
-   
-}
+
 #testimonial2{
  background-image: url('img/testimonal2.jpg'); 
     background-position: center top;
@@ -504,7 +501,11 @@ padding:60px 0 0;
 .phonenumber-box>p{
     max-width:100%;
 }
+/*Footer*/
+#footer{
+    padding-bottom:120px;
 
+}
 #footer-logo{
     width:150px;
 }
@@ -551,10 +552,175 @@ li.footer{
     padding-inline-start:15px !important;
     
 }
+
 @media only screen and (max-width: 1250px){
-    #application1,  #application2,  #application3,  #application4, #subtext1, #subtext2, #subtext3, #subtext4{
+    #application1,  #application2,  #application3,  #application4{
         width:100%;
    
+    }
+   @media only screen and (max-width: 1024px) {
+#hero-textbox{
+    max-width: 65%;
+    margin:auto 5%;
+   } 
+ nav{
+    padding:20px 0;
+}
+nav>ul{
+    padding-left:20px;
+}
+a.white-op{
+    font-size: smaller;
+}
+h1{
+    font-size:30px;
+}
+h2{
+font-size: 22px;
+}
+h3{
+ font-size: 20px;
+}
+h4{
+    max-width:80%;
+}
+p{
+    max-width:80%;
+}
+#subtext2-textbox, #subtext3-textbox{
+width:80%;
+}
+#benefits-textbox{
+    justify-content: center;}
+
+#oursolution-textbox{
+    padding:90px 0;
+   }
+   #tested-iconbox{
+    justify-content: center;
+    align-content: center;
+margin-bottom:0;
+   }
+   .iconbox>img{
+    max-width: 60%;
+   }
+   h3.brown.center.tested{
+    margin:30px auto 30px;
+   }
+   .application-textbox1, .application-textbox2{
+    max-width:50%;
+    height:300px;
+   }
+   #ourteam-container{
+    justify-content: center;
+   }
+   .ourteam-textbox{
+    max-width:80%;
+    margin-bottom:60px;
+   }
+   #contact{
+    justify-content: space-between;
+   }
+   a.white{
+    font-size: 15px;
+}
+ul.footer-ul{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    padding-left: 0!important;
+}
+.ul-textbox{
+    width:100%;
+    border-left:none;
+    padding-left: 0;
+}
+li.footer{
+    margin:5px;
+    border-left:#208800 solid 1px;
+    padding: 0 0 0 5px;
+    margin-bottom: 10px;
+
+}
+  .benefit-textbox, .whyus-textbox{
+            max-width:360px;
+        }
+ 
+   }
+    @media only screen and (max-width: 769px) {
+        .benefit-textbox{
+            max-width:360px;
+        }
+.application-textbox1, .application-textbox2{
+  max-width: 80%;
+  
+}
+nav{
+    max-width: 27%;
+
+}
+nav>ul{
+    padding-left:8px;
+}
+#hero-textbox{
+    max-width: 63%;;
+}
+    }
+    @media only screen and (max-width: 480px) {
+        #subtext1, #subtext4{
+           width:25%;
+
+        }
+         #subtext2, #subtext3{
+           width:75%;
+
+        }
+        #oursolution-textbox{
+            margin-top: -240px;
+            padding:90px 15px 90px;
+           
+        }
+        #benefits{
+            margin-top:1200px;
+            padding-bottom:0;
+        }
+        #oursolution{
+            height:1220px;
+        
+        }
+        #big-leaf{
+            margin: -200px auto auto 0;
+        }
+        #tested-textbox, #application-maintextbox, #whyus{
+            padding:90px 0;
+        }   
+        .application-textbox1, .application-textbox2{
+            height:max-content;
+        } 
+        h2.white.withline{
+            max-width: 100%;
+            line-height: 1.6;
+        }
+     #testimonials{
+            padding:90px 0 0;
+        }
+#testimonial1, #testimonial2, #testimonial3, #testimonial4{
+    padding: 90px 0;
+}
+#gallery, #ourteam{
+    padding:30px 0 0;
+}
+#ourteam-bg{
+    padding:90px 0;
+}
+#big-leaf{
+    width:120%;
+}
+  }
+@media only screen and (max-width: 380px) {
+.container{
+    padding:0;
+}
     }
 }
     
