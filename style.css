@@ -228,6 +228,19 @@ h2.green{
     margin: 0 auto 60px;
     max-width: 60%;
 }
+a.sticky{
+  position: fixed;
+  z-index:60;
+ right:0;
+ top:auto;
+ bottom:15px;
+}
+
+a.sticky.arrow{
+  padding: 5px;
+  text-align: center;
+}
+
 /*Key Benefits section*/
 #benefits{
    position: relative;
