@@ -620,6 +620,13 @@ h4.white.fullwidth{
     padding-bottom:15px;
 
 }
+.gradient-line{
+    background: #5B7CA0;
+background: linear-gradient(90deg,rgba(91, 124, 160, 1) 0%, rgba(44, 112, 1, 1) 28%, rgba(139, 52, 5, 1) 59%, rgba(152, 84, 11, 1) 81%, rgba(91, 124, 160, 1) 99%);
+width:100%;
+height:5px;
+}
+/*Animal Key Benefits*/
 #animalkeybenefits{
 background-image: url('img/animalkeybenefits-bg.jpg'); 
     background-position: center top;
