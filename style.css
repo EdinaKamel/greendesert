@@ -1,11 +1,17 @@
 body{
     margin:0;
-    font-family: "Work Sans", sans-serif;
- 
+     font-family: "STIX Two Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden !important; 
 }
+ 
 html, body {
     width: auto!important; overflow-x: hidden!important
   } 
+
+ 
   
 /*colours*/
 .brown{
@@ -16,39 +22,37 @@ html, body {
     opacity:0.69;
 }
 .black{
-    color: #040F00;
+    color: rgba(2, 7, 0, 1);
 }
 .white{
     color:white;
 }
 .white-op{
-   color: rgba(255, 255, 255, 0.7);
+   color: rgba(255, 255, 255, 0.8);
 }
 .brown-bg{
-    background-color: #98540B;
+    background-color: rgba(152, 84, 11,1);
 }
-.dark-green-bg{
-    background-color:#040F00;
-}
+
 
 .green-bg{
     background-color:#208800;
 }
 .black-bg{
-    background-color: #040F00;
+    background-color: rgba(2, 7, 0, 1);
 }
-
+.black-bg-opacity{
+    background-color: rgba(2, 7, 0, 0.6);
+}
 .white-bg{
     background-color: white;
 }
-/*texts*/
-h1{
-    font-size: ;
+.brown-bg-opacity{
+background-color: rgba(152, 84, 11, 0.6);
 }
-h2{
-   
 
-}
+/*texts*/
+
 h3{
     font-size:22px ;
     line-height: 1.6;
@@ -56,7 +60,7 @@ h3{
 }
 h4{
 font-size:18px ;
-    line-height: 1.6;
+    line-height: 1.8;
     max-width: 60%;
     font-weight: 400;
 }
@@ -101,7 +105,8 @@ nav{
     background-color: rgba(30, 129, 0, 0.6);
     margin-left:auto;
     margin-right:0;
-    padding:30px 0 ;
+    padding:60px 0 ;
+
 }
 
 .container{
@@ -565,7 +570,229 @@ li.footer{
     padding-inline-start:15px !important;
     
 }
+/*Animal Health*/
+/*Animal Hero*/
+#animalhero{
+  background-image: url('img/animalhero-bg.jpg '); 
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+   position: relative;
+  
 
+}
+#animalhero-logo{
+    position: absolute;
+    width:100px;
+    margin:30px 0 90px 7%;
+}
+#animalhero-textbox{
+
+    width: 70%;
+    padding:60px 0;
+   position: absolute;
+   top:30%;
+}
+#animalhero-h1{
+    font-size:62px;
+    margin-left:10%;
+}
+#animalhero-h2{
+   margin-left:10%; 
+}
+/*Animal About*/
+#animalabout{
+background-image: url('img/animalabout-bg.jpg'); 
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:120px 0;
+    height:600px;
+}
+#animalabout-textbox{
+  width: 63%;
+    padding:60px 0 ;
+   position: absolute;
+   margin-left:7%;
+}
+h4.white.fullwidth{
+   width:100%;
+    padding-bottom:15px;
+
+}
+#animalkeybenefits{
+background-image: url('img/animalkeybenefits-bg.jpg'); 
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:120px 0;
+ 
+}
+#animalkeybenefits>.container{
+padding:60px 0;
+}
+#animalbenefit-textbox{
+    padding:60px;
+    display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+
+  overflow: hidden;
+
+}
+.animalbenefit-h4{
+width:30%;
+    margin:0 30px 60px;
+}
+
+/*Horses*/
+#horses{
+    padding:60px 0 0;
+}
+#horses-bg{
+ background-image: url('img/horses-bg.jpg'); 
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:90px 0;   
+}
+#horses-bg>.container{
+    padding:60px;
+    display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+
+  overflow: hidden; 
+}
+.horses-textbox{
+    padding: 0;
+    margin:90px 0;
+    width:29%;
+    height:600px;
+    
+}
+.horses-h4textbox{
+    margin:45% auto;
+}
+h4.withline{
+    border-bottom: rgba(255, 254, 254, 0.9) solid 2px ;
+    padding-bottom: 15px;
+
+}
+.middle{
+    margin-top:-130px;
+
+}
+.middle>.horses-h4textbox{
+    margin: 60% auto;
+}
+h3.white.center.horses-h3{
+    margin-top:180px;
+}
+.line{
+    width:100%;
+    margin-top:-15px;
+}
+
+/*All Animal Types*/
+#allanimal{
+    padding:90px 0 0;
+}
+#allanimal-bg{
+  background-image: url('img/allanimal-bg.jpg'); 
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:90px 0; 
+    margin-top: 0;   
+}
+#animalbox-container{
+       padding:60px;
+    display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  overflow: hidden; 
+}
+.animal-box{
+    width:197px;
+}
+.animal-box.first{
+    margin-top:-26px;
+}
+.animal-box>img{
+    width:100%;
+}
+.animal-box>h4, .productdetails-box>h4{
+    max-width:100%;
+}
+/*Sustainable*/
+
+#sustainable, #productdetails{
+    padding:90px 0 0;
+}
+#sustainable-bg{
+  background-image: url('img/sustainable-bg.jpg'); 
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:90px 0; 
+    margin-top: 0;   
+}
+#sustainable-container{
+      padding:60px;
+    display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  overflow: hidden; 
+}   
+
+img.animalicon{
+    width:150px;
+    height:150px;
+
+}
+.animalicon-box{
+    text-align: center;
+    width:160px;
+}
+
+/*Product Details*/
+#productdetails-container{
+      padding:60px;
+    display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  overflow: hidden;   
+}
+#productdetails-bg{
+  background-image: url('img/productdetails-bg.jpg'); 
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:90px 0; 
+    margin-top: 0;   
+}
+.productdetails-box{
+    width:160px;
+    border-bottom: 1px white solid;
+    border-left:1px white solid;
+    padding:15px;
+    height:240px;
+}
+.contact-textbox.animal{
+    border-left:#98540B solid 2px;
+}
 @media only screen and (max-width: 1250px){
     #application1,  #application2,  #application3,  #application4{
         width:100%;
@@ -655,10 +882,52 @@ li.footer{
     margin-bottom: 10px;
 
 }
+li.footer.brown{
+    border-left:#98540B solid 1px;
+}
   .benefit-textbox, .whyus-textbox{
             max-width:360px;
         }
- 
+        #horses-bg>.container{
+            justify-content: center;
+        }
+ .horses-textbox{
+    width:80%;
+    height:fit-content;
+   
+ }
+ .horses-textbox>h4.white.fullwidth{
+    margin:30px auto;
+ }
+ .middle{
+    margin-top:90px;
+ }
+ #animalbox-container{
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .animal-box{
+    margin-bottom:90px;
+ }
+ .productdetails-box{
+    width:240px;
+    margin-bottom:90px;
+ }
+#sustainable-container{
+    padding:30px;
+    justify-content: center;
+}
+img.animalicon{
+    width:100px;
+    height:100px;
+   
+}
+#animalabout{
+    height:800px;
+}
+#animalhero, nav.brown-bg-opacity{
+    height:800px;
+}
    }
     @media only screen and (max-width: 769px) {
         .benefit-textbox{
@@ -675,8 +944,63 @@ nav{
 nav>ul{
     padding-left:8px;
 }
+li{
+    max-width: 70%;
+}
 #hero-textbox{
-    max-width: 63%;;
+    max-width: 63%;
+}
+#animalhero-h1{
+    font-size: 50px;
+    margin-top: -90px;
+}
+#animalabout{
+    height: 800px;
+    padding:60px 0 0;
+}
+.animalbenefit-h4{
+width:100%;
+}
+.horses-textbox{
+    width:100%;
+    margin:30px auto;
+    height:fit-content;
+    padding:60px 15px;
+}
+.animal-box{
+    text-align: center;
+    width:100%;
+}
+.animal-box>h3{
+    font-size: 22px;
+}
+.animal-box>h4.white.fullwidth{
+    margin: 60px auto 0 ;
+    width:100%;
+}
+.animalicon-box{
+    margin-bottom:60px;
+}
+
+#animalbox-container, #sustainable-container
+
+ {
+    justify-content: space-between;
+    align-items: center;
+    padding:25px;
+ }
+ .animalicon-box{
+    height:290px;
+ }
+.productdetails-box{
+    width:220px;
+    height:260px;
+}
+#allanimal-bg {
+    background-image: url(img/allanimal-mobil-bg.jpg);
+}
+#animalabout {
+    background-image: url(img/animalabout-mobil-bg.jpg);
 }
     }
     @media only screen and (max-width: 480px) {
@@ -729,11 +1053,24 @@ nav>ul{
 #big-leaf{
     width:120%;
 }
-  }
-@media only screen and (max-width: 380px) {
-.container{
+.container, #horses-bg>.container{
     padding:0;
 }
+#productdetails-container, #animalbenefit-textbox{
+    padding:0;
+
+}
+.animalicon-box{
+    margin:auto;
+}
+#animalhero, nav.brown-bg-opacity{
+    height:760px;
+}
+#animalhero-h1{
+    font-size: 38px;
     }
 }
-    
+#animalabout-textbox{
+width:100%;
+}  
+  }
