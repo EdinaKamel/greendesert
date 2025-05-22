@@ -936,8 +936,12 @@ img.animalicon{
     height:800px;
 }
    }
-    @media only screen and (max-width: 769px) {
-        .benefit-textbox{
+@media only screen and (max-width: 769px) {
+#animalhero{
+  background-image: url('img/animalhero-mobil-bg.jpg '); 
+
+}
+.benefit-textbox{
             max-width:360px;
         }
 .application-textbox1, .application-textbox2{
@@ -968,6 +972,7 @@ li{
 .animalbenefit-h4{
 width:100%;
 }
+
 .horses-textbox{
     width:100%;
     margin:30px auto;
