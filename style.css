@@ -1,15 +1,17 @@
+html, body {
+    width: auto!important; overflow-x: hidden!important
+  } 
+
 body{
     margin:0;
      font-family: "STIX Two Text", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  overflow-x: hidden !important; 
+  
 }
  
-html, body {
-    width: auto!important; overflow-x: hidden!important
-  } 
+
 
  
   
@@ -937,6 +939,7 @@ img.animalicon{
 }
    }
 @media only screen and (max-width: 769px) {
+  
 #animalhero{
   background-image: url('img/animalhero-mobil-bg.jpg '); 
 
@@ -967,7 +970,7 @@ li{
 }
 #animalabout{
     height: 800px;
-    padding:60px 0 0;
+    padding:30px 0 0;
 }
 .animalbenefit-h4{
 width:100%;
@@ -1083,6 +1086,6 @@ width:100%;
     }
 }
 #animalabout-textbox{
-width:100%;
+width:80%;
 }  
   }
