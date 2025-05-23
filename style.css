@@ -1007,6 +1007,9 @@ width:100%;
  .animalicon-box{
     height:290px;
  }
+ #productdetails-bg{
+    background-image: url(img/productdetails-mobile-bg.jpg);
+ }
 .productdetails-box{
     width:220px;
     height:260px;
